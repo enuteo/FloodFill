@@ -37,6 +37,12 @@ public class Coordenada {
             new Coordenada(x, y + 1),
             new Coordenada(x - 1, y),
             new Coordenada(x + 1, y)
+
+            // Novo codigo:
+            , new Coordenada(x + 1, y + 1)
+            , new Coordenada(x - 1, y + 1)
+            , new Coordenada(x + 1, y - 1)
+            , new Coordenada(x - 1, y - 1)
         };
     }
     
